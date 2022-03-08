@@ -6,12 +6,9 @@
 import scrapy
 
 
-class JobparserItem(scrapy.Item):
+class AvitoparserItem(scrapy.Item):
     # define the fields for your item here like:
     _id = scrapy.Field()
-    title = scrapy.Field()
-    salary = scrapy.Field()
-    salary_from = scrapy.Field()
-    salary_to = scrapy.Field()
-    currency = scrapy.Field()
-    url = scrapy.Field()
+    name = scrapy.Field()
+    photos = scrapy.Field()
+    price = scrapy.Field()
